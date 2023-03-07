@@ -1,0 +1,15 @@
+.spacer {
+  width: 0.25em;
+}
+.logo, .nav-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.toolbar {
+  display:flex;
+  width: 100%;
+  gap: 1em;
+  justify-content: space-between;
+}
