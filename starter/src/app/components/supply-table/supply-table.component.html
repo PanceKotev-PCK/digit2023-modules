@@ -1,1 +1,14 @@
-<p>supply-table works!</p>
+<div class="supply-wrapper">
+  <div class="title"><h1>Supplies</h1></div>
+  <div class="supply-table">
+    <div class="supply-header">
+      <div class="header picture">Image</div>
+      <div class="header name">Name</div>
+      <div class="header pet-type">For</div>
+      <div class="header description">Name</div>
+      <div class="header price">Price</div>
+    </div>
+    <app-supply-item class="supply-item-row" *ngFor="let supplyItem of supplyItems" [supplyItem]="supplyItem"></app-supply-item>
+  </div>
+  <app-add-new-item></app-add-new-item>
+  </div>

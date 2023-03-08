@@ -18,6 +18,8 @@ import { SupplyTableComponent } from './components/supply-table/supply-table.com
 import { SupplyItemComponent } from './components/supply-item/supply-item.component';
 import { CartComponent } from './components/cart/cart.component';
 import { MatCardModule } from '@angular/material/card';
+import { HomepageComponent } from './components/homepage/homepage.component';
+import { AddNewItemComponent } from './components/add-new-item/add-new-item.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +29,9 @@ import { MatCardModule } from '@angular/material/card';
     PetCardComponent,
     SupplyTableComponent,
     SupplyItemComponent,
-    CartComponent
+    CartComponent,
+    HomepageComponent,
+    AddNewItemComponent,
   ],
   imports: [
     BrowserModule,

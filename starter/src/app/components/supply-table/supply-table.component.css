@@ -1,0 +1,72 @@
+.food-picture {
+  width: 50px;
+  height: 50px;
+}
+
+.supply-header {
+  height: 55px;
+  display: flex;
+  width: 100%;
+  background: #ff4081;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 0.5em;
+  border: 1px solid #2b272722;
+  box-shadow: 0 7px 50px 5px #00000025;
+  backdrop-filter: blur(16.5px);
+  -webkit-backdrop-filter: blur(16.5px);
+  overflow: hidden;
+  transition: .5s all;
+}
+.header{
+  display: flex;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-weight: 500;
+  text-align: center;
+  font-size: 18px;
+  padding-block: 1em;
+  line-height: 18px;
+}
+.picture {
+  width: 200px;
+}
+.name {
+  width: 20%;
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.pet-type{
+  width:10%;
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.description {
+  width: 100%;
+}
+
+.price {
+  width: 15%;
+}
+
+.supply-wrapper{
+  margin-inline: 1em;
+  padding-block: 1rem;
+}
+
+.title {
+  width: 100%;
+  display:grid;
+  place-items: center;
+}
+
+.supply-item-row{
+  display: block;
+  margin-bottom: 1rem;
+}

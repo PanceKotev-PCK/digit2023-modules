@@ -5,7 +5,7 @@ export interface IPet {
   description: string;
 }
 
-export type PetType = 'cat' | 'mouse' | 'capybarra' | 'dog' | 'rock';
+export type PetType = 'cat' | 'hamster' | 'capybarra' | 'dog' | 'rock' | 'reindeer';
 
 export interface ISupply {
   name: string;

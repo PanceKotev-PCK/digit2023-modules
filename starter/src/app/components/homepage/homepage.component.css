@@ -1,0 +1,25 @@
+.header {
+  font-size: 100px;
+  line-height: 100px;
+	background-clip: text;
+  font-weight: 1500;
+	-webkit-background-clip: text;
+	color: transparent;
+  height: 100%;
+  background-size: contain;
+  text-align: center;
+  text-shadow: rgba(112, 112, 112, 0.673) 0px 0px 20px;
+	background-image: url('https://static.vecteezy.com/system/resources/previews/013/853/980/large_2x/seamless-colorful-pattern-with-dogs-and-paws-background-for-pet-shop-veterinary-clinic-pet-store-zoo-shelter-flat-style-design-illustration-vector.jpg');
+}
+
+.homepage-wrapper {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: calc(100% - 150px);
+  padding-bottom: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(1.1);
+  background-image: url('/assets/paw-bg.png');
+}

@@ -1,0 +1,22 @@
+:host {
+  position: fixed;
+  bottom: 80px;
+  right: 50px;
+  z-index: 9999;
+}
+
+.fab-button {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 90px;
+
+
+}
+
+.fab-button .mat-button-wrapper{
+  line-height: 90px;
+  padding: 0;
+
+
+}
