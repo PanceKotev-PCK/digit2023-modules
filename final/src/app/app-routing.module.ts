@@ -10,9 +10,6 @@ const routes: Routes = [
     path: 'home', component: HomepageComponent
   },
   {
-   path: 'pets', component: PetsModule
-  },
-  {
     path: 'supplies', component: SupplyTableComponent
   },
   {
