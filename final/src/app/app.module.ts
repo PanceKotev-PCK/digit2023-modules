@@ -9,8 +9,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { FooterComponent } from './components/footer/footer.component';
-import { SupplyTableComponent } from './components/supply-table/supply-table.component';
-import { SupplyItemComponent } from './components/supply-item/supply-item.component';
 import { CartComponent } from './components/cart/cart.component';
 import { MatCardModule } from '@angular/material/card';
 import { HomepageComponent } from './components/homepage/homepage.component';
@@ -20,8 +18,6 @@ import { SharedModule } from './shared/shared.module';
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    SupplyTableComponent,
-    SupplyItemComponent,
     CartComponent,
     HomepageComponent,
   ],

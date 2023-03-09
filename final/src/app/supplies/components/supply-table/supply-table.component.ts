@@ -1,6 +1,6 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { ISupply } from 'src/app/models/interfaces';
 import { SuppliesService } from 'src/app/services/supplies.service';
+import { ISupply } from '../../models';
 
 @Component({
   selector: 'app-supply-table',

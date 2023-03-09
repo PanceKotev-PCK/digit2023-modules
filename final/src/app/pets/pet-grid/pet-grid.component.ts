@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IPet } from 'src/app/models/interfaces';
+import { IPet } from '../models';
 import { PetsService } from 'src/app/services/pets.service';
 
 @Component({

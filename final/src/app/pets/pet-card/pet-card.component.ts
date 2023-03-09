@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { IPet } from 'src/app/models/interfaces';
+import { IPet } from '../models';
 
 @Component({
   selector: 'app-pet-card',

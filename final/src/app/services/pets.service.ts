@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { IPet } from '../models/interfaces';
+import { IPet } from '../pets/models';
 
 @Injectable({
   providedIn: 'root'

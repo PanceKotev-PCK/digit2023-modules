@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { ISupply } from 'src/app/models/interfaces';
+import { ISupply } from '../../models';
 
 @Component({
   selector: 'app-supply-item',
