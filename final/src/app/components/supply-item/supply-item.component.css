@@ -1,0 +1,53 @@
+.food-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+  object-position: center;
+  object-fit: cover;
+}
+
+.supply-row {
+  height: 100px;
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #2b272722;
+background-color: #a4a4a448;
+box-shadow: 0 7px 50px 5px #00000025;
+backdrop-filter: blur(16.5px);
+-webkit-backdrop-filter: blur(16.5px);
+overflow: hidden;
+transition: .5s all;
+}
+.column{
+  display: flex;
+  padding: 1em;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.picture {
+  width: 200px;
+}
+.name {
+  width: 20%;
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.pet-type{
+  width:12.5%;
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.description {
+  width: 100%;
+}
+
+.price {
+  width: 15%;
+}
