@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { PetType } from '../models/interfaces';
+import { PetType } from '../models';
 
 @Pipe({
   name: 'petTypeDisplay'

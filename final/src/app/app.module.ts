@@ -20,7 +20,7 @@ import { CartComponent } from './components/cart/cart.component';
 import { MatCardModule } from '@angular/material/card';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { AddNewItemComponent } from './components/add-new-item/add-new-item.component';
-import { PetTypeDisplayPipe } from './pipes/pet-type-display.pipe';
+import { SharedModule } from './shared/shared.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,13 +32,13 @@ import { PetTypeDisplayPipe } from './pipes/pet-type-display.pipe';
     SupplyItemComponent,
     CartComponent,
     HomepageComponent,
-    AddNewItemComponent,
-    PetTypeDisplayPipe,
+    AddNewItemComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    SharedModule,
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
