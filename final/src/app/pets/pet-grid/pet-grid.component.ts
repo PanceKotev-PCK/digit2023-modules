@@ -3,7 +3,6 @@ import { IPet } from 'src/app/models/interfaces';
 import { PetsService } from 'src/app/services/pets.service';
 
 @Component({
-  selector: 'app-pet-grid',
   templateUrl: './pet-grid.component.html',
   styleUrls: ['./pet-grid.component.css']
 })
