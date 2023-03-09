@@ -10,6 +10,12 @@ const routes: Routes = [
     path: 'home', component: HomepageComponent
   },
   {
+    path: 'pets', loadChildren: () => import('./pets/pets.module').then(p => p.PetsModule)
+  },
+  {
+    path: 'supplies', loadChildren: () => import('./supplies/supplies.module').then(s => s.SuppliesModule)
+  },
+  {
     path: 'cart', component: CartComponent
   },
   {
@@ -18,7 +24,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [PetsModule, SuppliesModule, RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

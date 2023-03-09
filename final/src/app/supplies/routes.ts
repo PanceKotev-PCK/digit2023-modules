@@ -3,6 +3,6 @@ import { SupplyTableComponent } from "./components/supply-table/supply-table.com
 
 export const routes: Route[] = [
 {
-  path:'supplies', component: SupplyTableComponent, pathMatch: 'full'
+  path:'', component: SupplyTableComponent, pathMatch: 'full'
 }
 ]
