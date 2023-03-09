@@ -6,6 +6,10 @@
 	-webkit-background-clip: text;
 	color: transparent;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   background-size: contain;
   text-align: center;
   text-shadow: rgba(112, 112, 112, 0.673) 0px 0px 20px;

@@ -3,7 +3,7 @@
   height: 50px;
 }
 
-.supply-header {
+.supply-header-row {
   height: 55px;
   display: flex;
   width: 100%;
@@ -18,7 +18,7 @@
   overflow: hidden;
   transition: .5s all;
 }
-.header{
+.supply-header{
   display: flex;
   padding: 1em;
   justify-content: center;

@@ -2,7 +2,7 @@
 <div class="supply-row" *ngIf="supplyItem">
   <div class="column picture"><img class="food-picture" [src]="supplyItem.pictureUrl"/></div>
   <div class="column name">{{ supplyItem.name }}</div>
-  <div class="column pet-type">{{ supplyItem.for }}</div>
+  <div class="column pet-type">{{ supplyItem.for | petTypeDisplay }}</div>
   <div class="column description">{{ supplyItem.description }}</div>
   <div class="column price">{{ supplyItem.price }} $</div>
 </div>

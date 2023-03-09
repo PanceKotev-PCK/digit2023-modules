@@ -13,5 +13,4 @@ export interface ISupply {
   pictureUrl: string;
   for: PetType;
   description: string;
-
 }
